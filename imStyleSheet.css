@@ -1,0 +1,137 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 11, 2017, 10:22:32 AM
+    Author     : jonathankoerber
+*/
+/*Style for main page*/
+.pane{
+    
+}
+.root{
+    
+    -fx-alignment: BASELINE_CENTER;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+}
+.top{
+    -fx-padding: 40 10 40 10;
+   
+}
+.contentLeft{
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-float: left;
+    -fx-padding: 20 10 30 10;
+    
+}
+.contentRight{
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-float: right;
+    -fx-display:inline-block;
+    -fx-padding: 20 10 30 10;
+     
+}
+Button{
+ -fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 12px;
+    -fx-padding: 10 20 10 20;
+    -fx-text-alignment: center;
+   
+}
+.tableBtns{
+    -fx-alignment: BOTTOM_RIGHT;
+    -fx-padding: 10px;
+    -fx-spacing:  5px;
+}
+.contentGrp{
+    
+    -fx-alignment: TOP_RIGHT;
+    -fx-spacing: 5px;
+}
+
+Label{
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-padding: 5 5 5 5;
+    -fx-font-size: 12px;
+    -fx-text-fill: #191d22;
+    -fx-alignment: CENTER_RIGHT;
+}
+.pageLabel{
+    -fx-font-size: 22;
+}
+.contentLabel{
+    -fx-font-size: 18;
+    -fx-alignment: center-left;
+}
+
+.bottom{
+    -fx-alignment:bottom-right;
+    -fx-height: 100px;;
+    -fx-clear: all;
+    -fx-padding: 20 50 20 20;
+    -fx-spacing: 5px;
+}
+/*Style for the extra popup panes*/
+.header{
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+}
+.radio{
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+}
+
+
+.pane{
+    fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+   -fx-alignment: CENTER;
+    -fx-padding: 30 50 30 50;
+}
+ 
+/*text fields*/
+.paneField{
+    
+    -fx-height: 30px;
+    -fx-width: 25px;
+   
+    
+}
+#smallField{
+    
+    -fx-width: 2px;
+}
+.content{
+    -fx-display: inline-block;
+    -fx-padding: 40 50 40 50;
+    -fx-alingment: center;
+}
+
+.searchTxt{
+    -fx-spacing: 50px;
+    -fx-alignment: CENTER;
+    -fx-padding: 10 20 10 20;
+}
+/* Styles to be toggled with radio buttons*/
+.gray{
+    -fx-backgroud-color: gray;
+}
